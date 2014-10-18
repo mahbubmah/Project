@@ -19,6 +19,11 @@ namespace StudentCourse.DLL.DAO
             Email = email;
         }
 
+        public Student(string regNo):this()
+        {
+            RegNo = regNo;
+        }
+
         public Student()
         {
         }

@@ -44,20 +44,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\ResultEntryBll\ResultEntryBll.cs" />
     <Compile Include="DLL\DAO\Course.cs" />
     <Compile Include="DLL\DAO\Student.cs" />
-    <Compile Include="DLL\GateWay\ResultEntryGateWay.cs" />
-    <Compile Include="ResultEntryUi.cs">
+    <Compile Include="UI\CourseEnrollment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ResultEntryUi.Designer.cs">
-      <DependentUpon>ResultEntryUi.cs</DependentUpon>
+    <Compile Include="UI\CourseEnrollment.Designer.cs">
+      <DependentUpon>CourseEnrollment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainUI.Designer.cs">
+      <DependentUpon>MainUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ResultEntryUi.resx">
-      <DependentUpon>ResultEntryUi.cs</DependentUpon>
+    <Compile Include="UI\ResultEntryUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ResultEntryUI.Designer.cs">
+      <DependentUpon>ResultEntryUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ResultSheetUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ResultSheetUI.Designer.cs">
+      <DependentUpon>ResultSheetUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\CourseEnrollment.resx">
+      <DependentUpon>CourseEnrollment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainUI.resx">
+      <DependentUpon>MainUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -68,6 +87,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\ResultEntryUI.resx">
+      <DependentUpon>ResultEntryUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ResultSheetUI.resx">
+      <DependentUpon>ResultSheetUI.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,7 +105,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UI\" />
+    <Folder Include="BLL\CourseEnrollment\" />
+    <Folder Include="BLL\ResultEntry\" />
+    <Folder Include="BLL\ResultSheet\" />
+    <Folder Include="DLL\DAO\CourseEnrollment\" />
+    <Folder Include="DLL\DAO\ResultEntry\" />
+    <Folder Include="DLL\DAO\ResultSheet\" />
+    <Folder Include="DLL\GateWay\CourseEnrollment\" />
+    <Folder Include="DLL\GateWay\ResultEntry\" />
+    <Folder Include="DLL\GateWay\ResultSheet\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

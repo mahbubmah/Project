@@ -16,7 +16,7 @@ namespace StudentCourse
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ResultEntryForm());
+            Application.Run(new MainUI());
         }
     }
 }

@@ -8,13 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StudentCourse
+namespace StudentCourse.UI
 {
-    public partial class MainUI : Form
+    public partial class CourseEnrollment : Form
     {
-        public MainUI()
+        public CourseEnrollment()
         {
             InitializeComponent();
         }
+
+        private void findButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      
+
+      
     }
 }

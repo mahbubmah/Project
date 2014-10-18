@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ResultSheetUI
+namespace StudentCourse.UI
 {
     public partial class ResultSheetUI : Form
     {
         public ResultSheetUI()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -16,3 +16,15 @@ C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCours
 C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.ResultEntryForm.resources
 C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.Properties.Resources.resources
 C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csproj.GenerateResource.Cache
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe.config
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.exe
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.pdb
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csprojResolveAssemblyReference.cache
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.MainUI.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.Properties.Resources.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csproj.GenerateResource.Cache
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.pdb
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.UI.ResultSheetUI.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.UI.CourseEnrollment.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.UI.ResultEntryUI.resources

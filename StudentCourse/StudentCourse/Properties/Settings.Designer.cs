@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StudentCourse.Properties
+namespace ResultEntryUi.UI.UI.UI.Properties
 {
 
 
