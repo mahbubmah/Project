@@ -34,3 +34,6 @@ C:\Users\PC21\Documents\Visual Studio 2013\Projects\Super-Shop-App-master\Super 
 C:\Users\PC21\Documents\Visual Studio 2013\Projects\Super-Shop-App-master\Super Shop\Super Shop App\obj\Debug\Super_Shop_App.SuperShopUI.resources
 C:\Users\PC21\Documents\Visual Studio 2013\Projects\Super-Shop-App-master\Super Shop\Super Shop App\obj\Debug\Super_Shop_App.Properties.Resources.resources
 C:\Users\PC21\Documents\Visual Studio 2013\Projects\Super-Shop-App-master\Super Shop\Super Shop App\obj\Debug\Super Shop App.csproj.GenerateResource.Cache
+C:\Users\MJS\Desktop\C#\Project\Super Shop\Super Shop App\bin\Debug\Super Shop App.exe.config
+C:\Users\MJS\Desktop\C#\Project\Super Shop\Super Shop App\obj\Debug\Super Shop App.exe
+C:\Users\MJS\Desktop\C#\Project\Super Shop\Super Shop App\obj\Debug\Super Shop App.pdb

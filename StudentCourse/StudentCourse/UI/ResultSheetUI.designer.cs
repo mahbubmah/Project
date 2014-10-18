@@ -32,16 +32,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.findButton = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.emailTextBox = new System.Windows.Forms.TextBox();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.regNoTextBox = new System.Windows.Forms.TextBox();
             this.averageScoreTextBox = new System.Windows.Forms.TextBox();
             this.gradeLetterTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.resultListView = new System.Windows.Forms.ListView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -82,26 +82,26 @@
             this.findButton.Text = "Find";
             this.findButton.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // emailTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(83, 107);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(342, 20);
-            this.textBox3.TabIndex = 15;
+            this.emailTextBox.Location = new System.Drawing.Point(83, 107);
+            this.emailTextBox.Name = "emailTextBox";
+            this.emailTextBox.Size = new System.Drawing.Size(342, 20);
+            this.emailTextBox.TabIndex = 15;
             // 
-            // textBox2
+            // nameTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 63);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(342, 20);
-            this.textBox2.TabIndex = 16;
+            this.nameTextBox.Location = new System.Drawing.Point(83, 63);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(342, 20);
+            this.nameTextBox.TabIndex = 16;
             // 
-            // textBox1
+            // regNoTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 20);
-            this.textBox1.TabIndex = 17;
+            this.regNoTextBox.Location = new System.Drawing.Point(83, 19);
+            this.regNoTextBox.Name = "regNoTextBox";
+            this.regNoTextBox.Size = new System.Drawing.Size(166, 20);
+            this.regNoTextBox.TabIndex = 17;
             // 
             // averageScoreTextBox
             // 
@@ -145,9 +145,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.findButton);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.emailTextBox);
+            this.groupBox1.Controls.Add(this.nameTextBox);
+            this.groupBox1.Controls.Add(this.regNoTextBox);
             this.groupBox1.Location = new System.Drawing.Point(24, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(684, 147);
@@ -157,7 +157,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.listView1);
+            this.groupBox2.Controls.Add(this.resultListView);
             this.groupBox2.Location = new System.Drawing.Point(24, 179);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(683, 132);
@@ -165,14 +165,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Result";
             // 
-            // listView1
+            // resultListView
             // 
-            this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(16, 21);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(650, 99);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.resultListView.GridLines = true;
+            this.resultListView.Location = new System.Drawing.Point(16, 21);
+            this.resultListView.Name = "resultListView";
+            this.resultListView.Size = new System.Drawing.Size(650, 99);
+            this.resultListView.TabIndex = 0;
+            this.resultListView.UseCompatibleStateImageBehavior = false;
             // 
             // ResultSheetUI
             // 
@@ -196,15 +196,15 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button findButton;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox emailTextBox;
+        private System.Windows.Forms.TextBox nameTextBox;
+        private System.Windows.Forms.TextBox regNoTextBox;
         private System.Windows.Forms.TextBox averageScoreTextBox;
         private System.Windows.Forms.TextBox gradeLetterTextBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView resultListView;
     }
 }

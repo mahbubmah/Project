@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.regNoTextBox = new System.Windows.Forms.TextBox();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.emailTextBox = new System.Windows.Forms.TextBox();
             this.courseComboBox = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.findButton = new System.Windows.Forms.Button();
@@ -45,26 +45,26 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // regNoTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(146, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 20);
-            this.textBox1.TabIndex = 0;
+            this.regNoTextBox.Location = new System.Drawing.Point(146, 23);
+            this.regNoTextBox.Name = "regNoTextBox";
+            this.regNoTextBox.Size = new System.Drawing.Size(166, 20);
+            this.regNoTextBox.TabIndex = 0;
             // 
-            // textBox2
+            // nameTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(146, 64);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(407, 20);
-            this.textBox2.TabIndex = 0;
+            this.nameTextBox.Location = new System.Drawing.Point(146, 64);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(407, 20);
+            this.nameTextBox.TabIndex = 0;
             // 
-            // textBox3
+            // emailTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(146, 105);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(407, 20);
-            this.textBox3.TabIndex = 0;
+            this.emailTextBox.Location = new System.Drawing.Point(146, 105);
+            this.emailTextBox.Name = "emailTextBox";
+            this.emailTextBox.Size = new System.Drawing.Size(407, 20);
+            this.emailTextBox.TabIndex = 0;
             // 
             // courseComboBox
             // 
@@ -99,6 +99,7 @@
             this.enrollButton.TabIndex = 4;
             this.enrollButton.Text = "Enroll";
             this.enrollButton.UseVisualStyleBackColor = true;
+            this.enrollButton.Click += new System.EventHandler(this.enrollButton_Click);
             // 
             // label1
             // 
@@ -178,9 +179,9 @@
             this.Controls.Add(this.findButton);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.courseComboBox);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.emailTextBox);
+            this.Controls.Add(this.nameTextBox);
+            this.Controls.Add(this.regNoTextBox);
             this.Name = "CourseEnrollment";
             this.Text = "Course Enrollment";
             this.groupBox1.ResumeLayout(false);
@@ -191,9 +192,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox regNoTextBox;
+        private System.Windows.Forms.TextBox nameTextBox;
+        private System.Windows.Forms.TextBox emailTextBox;
         private System.Windows.Forms.ComboBox courseComboBox;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button findButton;

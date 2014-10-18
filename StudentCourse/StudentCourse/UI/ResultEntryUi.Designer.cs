@@ -34,14 +34,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.findButton = new System.Windows.Forms.Button();
             this.courseComboBox = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.emailTextBox = new System.Windows.Forms.TextBox();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.regNoTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.saveButton = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.scoreTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -98,26 +98,26 @@
             this.courseComboBox.Size = new System.Drawing.Size(207, 21);
             this.courseComboBox.TabIndex = 9;
             // 
-            // textBox3
+            // emailTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(158, 108);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(407, 20);
-            this.textBox3.TabIndex = 6;
+            this.emailTextBox.Location = new System.Drawing.Point(158, 108);
+            this.emailTextBox.Name = "emailTextBox";
+            this.emailTextBox.Size = new System.Drawing.Size(407, 20);
+            this.emailTextBox.TabIndex = 6;
             // 
-            // textBox2
+            // nameTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(158, 64);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(407, 20);
-            this.textBox2.TabIndex = 7;
+            this.nameTextBox.Location = new System.Drawing.Point(158, 64);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(407, 20);
+            this.nameTextBox.TabIndex = 7;
             // 
-            // textBox1
+            // regNoTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(158, 20);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 20);
-            this.textBox1.TabIndex = 8;
+            this.regNoTextBox.Location = new System.Drawing.Point(158, 20);
+            this.regNoTextBox.Name = "regNoTextBox";
+            this.regNoTextBox.Size = new System.Drawing.Size(166, 20);
+            this.regNoTextBox.TabIndex = 8;
             // 
             // button1
             // 
@@ -153,12 +153,12 @@
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // scoreTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(158, 197);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(207, 20);
-            this.textBox4.TabIndex = 19;
+            this.scoreTextBox.Location = new System.Drawing.Point(158, 197);
+            this.scoreTextBox.Name = "scoreTextBox";
+            this.scoreTextBox.Size = new System.Drawing.Size(207, 20);
+            this.scoreTextBox.TabIndex = 19;
             // 
             // label6
             // 
@@ -175,7 +175,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(601, 285);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.scoreTextBox);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dateTimePicker1);
@@ -186,9 +186,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.findButton);
             this.Controls.Add(this.courseComboBox);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.emailTextBox);
+            this.Controls.Add(this.nameTextBox);
+            this.Controls.Add(this.regNoTextBox);
             this.Name = "ResultEntryUI";
             this.Text = "ResultEntryUI";
             this.ResumeLayout(false);
@@ -204,14 +204,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button findButton;
         private System.Windows.Forms.ComboBox courseComboBox;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox emailTextBox;
+        private System.Windows.Forms.TextBox nameTextBox;
+        private System.Windows.Forms.TextBox regNoTextBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button saveButton;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox scoreTextBox;
         private System.Windows.Forms.Label label6;
     }
 }

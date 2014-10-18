@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,7 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DLL\DAO\Course.cs" />
+    <Compile Include="BLL\CourseEnrollment\CourseEnrollmentBLL.cs" />
     <Compile Include="DLL\DAO\Student.cs" />
+    <Compile Include="DLL\GateWay\CourseEnrollment\CourseEnrollmentGateWay.cs" />
     <Compile Include="UI\CourseEnrollment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,13 +108,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\CourseEnrollment\" />
     <Folder Include="BLL\ResultEntry\" />
     <Folder Include="BLL\ResultSheet\" />
     <Folder Include="DLL\DAO\CourseEnrollment\" />
     <Folder Include="DLL\DAO\ResultEntry\" />
     <Folder Include="DLL\DAO\ResultSheet\" />
-    <Folder Include="DLL\GateWay\CourseEnrollment\" />
     <Folder Include="DLL\GateWay\ResultEntry\" />
     <Folder Include="DLL\GateWay\ResultSheet\" />
   </ItemGroup>
