@@ -1,0 +1,9 @@
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe.config
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\bin\Debug\StudentCourse.pdb
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csprojResolveAssemblyReference.cache
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.ResultEntryForm.resources
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.Properties.Resources.resources
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csproj.GenerateResource.Cache
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.exe
+c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.pdb
