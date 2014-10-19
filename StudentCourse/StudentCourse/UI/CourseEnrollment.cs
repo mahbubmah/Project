@@ -17,6 +17,17 @@ namespace StudentCourse.UI
         public CourseEnrollment()
         {
             InitializeComponent();
+            courseComboBox.DisplayMember = "Title";
+            List<Course> aCoursesList=new List<Course>();
+
+            CourseEnrollmentBll aCourseEnrollmentBll = new CourseEnrollmentBll();
+            aCoursesList=aCourseEnrollmentBll.GetCourse();
+
+            foreach (Course course in aCoursesList)
+            {
+                courseComboBox.Items.Add(course);
+            }
+            
         }
 
         private void findButton_Click(object sender, EventArgs e)
@@ -36,7 +47,7 @@ namespace StudentCourse.UI
 
             CourseEnrollmentBll aCourseEnrollmentBll=new CourseEnrollmentBll();
 
-            string msg=aCourseEnrollmentBll.AddStudent(aStudent);
+            string msg=aCourseEnrollmentBll.EnrollCourse(aStudent);
 
             MessageBox.Show(msg);
 

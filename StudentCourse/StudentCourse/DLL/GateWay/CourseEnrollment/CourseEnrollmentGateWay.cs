@@ -37,8 +37,6 @@ namespace StudentCourse.DLL.GateWay.CourseEnrollment
                 return "Student Added";
 
             return "Some problem";
-
-
         }
 
         public Student HasThisStudentExist(string regNo)
@@ -69,6 +67,30 @@ namespace StudentCourse.DLL.GateWay.CourseEnrollment
             bool Hasrow = aReader.HasRows;
             connection.Close();
             return Hasrow;
+        }
+
+        public List<Course> GetCourse()
+        {
+            connection.Open();
+            List<Course> aListCourse=new List<Course>();
+            string query = string.Format("SELECT *FROM t_Course");
+            SqlCommand command = new SqlCommand(query, connection);
+            SqlDataReader aReader = command.ExecuteReader();
+            if (aReader.HasRows)
+            {
+                while (aReader.Read())
+                {
+                    Course aCourse=new Course();
+
+                    aCourse.Code = aReader[1].ToString();
+                    aCourse.Title = aReader[2].ToString();
+
+                    aListCourse.Add(aCourse);
+                }
+            }
+
+            connection.Close();
+            return aListCourse;
         }
     }
 

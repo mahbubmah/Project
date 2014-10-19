@@ -18,22 +18,23 @@ namespace StudentCourse.BLL.CourseEnrollment
             aCourseEnrollmentGateWay=new CourseEnrollmentGateWay();
         }
 
-        public string AddStudent(Student aStudent)
+        public string EnrollCourse(Student aStudent)
         {
 
 
-            if (aStudent.Name == string.Empty || aStudent.RegNo == string.Empty || aStudent.Email == string.Empty)
-                return "please fill all field";
+            if (aStudent.RegNo == string.Empty)
+                return "please Enter Reg No";
             else
             {
 
                 if (aCourseEnrollmentGateWay.HasThisStudentValid(aStudent.RegNo))
                 {
-                    return "This RegNo is already exist. Try another";
+                    return aCourseEnrollmentGateWay.Enroll(aStudent);
+                    
                 }
                 else
                 {
-                    return aCourseEnrollmentGateWay.Enroll(aStudent);
+                    return "Please Enter Valid Reg No";
                 }
 
             }
@@ -43,6 +44,11 @@ namespace StudentCourse.BLL.CourseEnrollment
         public Student HasThisStudentExist(string regNo)
         {
             return aCourseEnrollmentGateWay.HasThisStudentExist(regNo);
+        }
+
+        public List<Course> GetCourse()
+        {
+            return aCourseEnrollmentGateWay.GetCourse();
         }
     }
 }
