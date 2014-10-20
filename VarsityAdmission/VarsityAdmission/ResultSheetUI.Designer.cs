@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Reg No");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("student name");
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("Course  title");
             this.findCEUiTutton = new System.Windows.Forms.Button();
             this.emailREUiTextBox = new System.Windows.Forms.TextBox();
             this.nameREUiTextBox = new System.Windows.Forms.TextBox();
@@ -38,8 +41,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.showScoreTextBox = new System.Windows.Forms.TextBox();
+            this.showGradeTextBox = new System.Windows.Forms.TextBox();
+            this.resultListView = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // findCEUiTutton
@@ -50,6 +54,7 @@
             this.findCEUiTutton.TabIndex = 26;
             this.findCEUiTutton.Text = "FIND";
             this.findCEUiTutton.UseVisualStyleBackColor = true;
+            this.findCEUiTutton.Click += new System.EventHandler(this.findCEUiTutton_Click);
             // 
             // emailREUiTextBox
             // 
@@ -126,20 +131,41 @@
             this.label6.TabIndex = 29;
             this.label6.Text = "Average Score%";
             // 
-            // dataGridView1
+            // showScoreTextBox
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(115, 128);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 30;
+            this.showScoreTextBox.Location = new System.Drawing.Point(465, 43);
+            this.showScoreTextBox.Name = "showScoreTextBox";
+            this.showScoreTextBox.Size = new System.Drawing.Size(100, 20);
+            this.showScoreTextBox.TabIndex = 31;
+            // 
+            // showGradeTextBox
+            // 
+            this.showGradeTextBox.Location = new System.Drawing.Point(465, 72);
+            this.showGradeTextBox.Name = "showGradeTextBox";
+            this.showGradeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.showGradeTextBox.TabIndex = 32;
+            // 
+            // resultListView
+            // 
+            this.resultListView.GridLines = true;
+            this.resultListView.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1,
+            listViewItem2,
+            listViewItem3});
+            this.resultListView.Location = new System.Drawing.Point(115, 128);
+            this.resultListView.Name = "resultListView";
+            this.resultListView.Size = new System.Drawing.Size(450, 115);
+            this.resultListView.TabIndex = 33;
+            this.resultListView.UseCompatibleStateImageBehavior = false;
             // 
             // ResultSheetUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 288);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.resultListView);
+            this.Controls.Add(this.showGradeTextBox);
+            this.Controls.Add(this.showScoreTextBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -152,7 +178,6 @@
             this.Controls.Add(this.label1);
             this.Name = "ResultSheetUI";
             this.Text = "ResultSheetUI";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,6 +195,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox showScoreTextBox;
+        private System.Windows.Forms.TextBox showGradeTextBox;
+        private System.Windows.Forms.ListView resultListView;
     }
 }

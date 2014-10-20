@@ -19,10 +19,11 @@ namespace VarsityAdmission.BLL
             }
             else
             {
-                
-                return aStudentGateway.Save(aStudent);
+                if (CheckRegNO(aStudent.RegNO) && CheckCourseTitle(aStudent.Coursetitle))
+                    return "same course taken already";
             }
             
+                    return aStudentGateway.Save(aStudent);
         }
 
         public bool CheckRegNO(string regNo)
@@ -30,9 +31,46 @@ namespace VarsityAdmission.BLL
             return aStudentGateway.CheckRegNO(regNo);
         }
 
+        public bool CheckCourseTitle(string coursetitle)
+        {
+            return aStudentGateway.CheckCoursetitle(coursetitle);
+        }
+
         public List<Student> ShowStudentData()
         {
             return aStudentGateway.ShowStudentData();
         }
+
+
+        public Student GetStudent(string regNo)
+        {
+            return aStudentGateway.GetStudent(regNo);
+        }
+
+        public Student GetStudent(Student aStudent)
+        {
+            
+            return aStudentGateway.GetStudent(aStudent);
+
+
+        }
+
+        public string SaveWithScore(Student aStudent)
+        {
+            if (aStudent.RegNO == "" || aStudent.Name == "" || aStudent.Email == "")
+            {
+                return "please fill up fields";
+            }
+            else
+            {
+                return aStudentGateway.SaveWithScore(aStudent);
+                    //return "same course takes already";
+            }
+
+            
+        }
+
+
+        
     }
 }

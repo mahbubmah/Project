@@ -11,6 +11,8 @@ namespace VarsityAdmission.DLL.DAO
         public string RegNO { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
+        public string Coursetitle { get; set; }
+        public string   Score { get; set; }
 
     }
 }

@@ -17,10 +17,13 @@ namespace VarsityAdmission
         private Student aStudent=new Student();
         StudentBLL aStudentBll=new StudentBLL();
         private List<Student> aStudentList;
+        CourseBLL aCourseBll=new CourseBLL();
+        private List<Course> aCoursesList; 
 
         public CourseEnrollmentUI()
         {
             InitializeComponent();
+            ShowCourseComboBox();
         }
 
         private void enrollCEUiTutton_Click(object sender, System.EventArgs e)
@@ -29,7 +32,8 @@ namespace VarsityAdmission
             aStudent.RegNO = regNoCEUiTextBox.Text;
             aStudent.Name = nameCEUiTextBox.Text;
             aStudent.Email = emailCEUiTextBox.Text;
-            
+            Course aCourse = (Course) courseCEUiComboBox.SelectedItem;
+            aStudent.Coursetitle = aCourse.CourseTitle;
             string msg= aStudentBll.save(aStudent);
             MessageBox.Show(msg);
 
@@ -55,6 +59,19 @@ namespace VarsityAdmission
         {
             aStudentList = aStudentBll.ShowStudentData();
             dataGridView1.DataSource = aStudentList;
+        }
+
+        private void ShowCourseComboBox()
+        {
+            
+            aCoursesList = aCourseBll.ShowCourseData();
+            //dataGridView1.DataSource = aCoursesList;
+            foreach (Course tempCourse in aCoursesList)
+            {
+                courseCEUiComboBox.Items.Add(tempCourse);
+            }
+            courseCEUiComboBox.DisplayMember = "CourseTitle";
+            
         }
     }
 }

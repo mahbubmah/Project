@@ -53,6 +53,7 @@
             this.findCEUiTutton.TabIndex = 19;
             this.findCEUiTutton.Text = "FIND";
             this.findCEUiTutton.UseVisualStyleBackColor = true;
+            this.findCEUiTutton.Click += new System.EventHandler(this.findCEUiTutton_Click);
             // 
             // emailREUiTextBox
             // 
@@ -152,6 +153,7 @@
             this.viewResultSheetButton.TabIndex = 25;
             this.viewResultSheetButton.Text = "viewResultSheetREUiButton";
             this.viewResultSheetButton.UseVisualStyleBackColor = true;
+            this.viewResultSheetButton.Click += new System.EventHandler(this.viewResultSheetButton_Click);
             // 
             // saveScoreButton
             // 
@@ -161,6 +163,7 @@
             this.saveScoreButton.TabIndex = 26;
             this.saveScoreButton.Text = "Save Score";
             this.saveScoreButton.UseVisualStyleBackColor = true;
+            this.saveScoreButton.Click += new System.EventHandler(this.saveScoreButton_Click);
             // 
             // dateTimePicker1
             // 
