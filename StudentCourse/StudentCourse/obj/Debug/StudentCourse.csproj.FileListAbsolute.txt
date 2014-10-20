@@ -1,30 +1,24 @@
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe.config
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\bin\Debug\StudentCourse.pdb
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csprojResolveAssemblyReference.cache
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.ResultEntryForm.resources
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.Properties.Resources.resources
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csproj.GenerateResource.Cache
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.exe
-c:\users\pc21\documents\visual studio 2013\Projects\StudentCourse\StudentCourse\obj\Debug\StudentCourse.pdb
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.exe
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.pdb
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe.config
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.pdb
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csprojResolveAssemblyReference.cache
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.ResultEntryForm.resources
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.Properties.Resources.resources
-C:\Users\PC21\Desktop\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csproj.GenerateResource.Cache
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe.config
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.exe
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.pdb
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\bin\Debug\TrainingCenterApp.exe.config
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.exe
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.pdb
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\bin\Debug\TrainingCenterApp.exe
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\bin\Debug\TrainingCenterApp.pdb
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csprojResolveAssemblyReference.cache
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.Properties.Resources.resources
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.UI.EnrollmentEntryUI.resources
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.UI.MainUI.resources
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.UI.ResultEntryUI.resources
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.UI.ResultSheetUI.resources
+C:\Users\MJS\Desktop\TrainingCenterApp-master (1)\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csproj.GenerateResource.Cache
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\TrainingCenterApp.exe.config
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.exe
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.pdb
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\TrainingCenterApp.exe
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\TrainingCenterApp.pdb
 C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csprojResolveAssemblyReference.cache
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.MainUI.resources
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.Properties.Resources.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.Properties.Resources.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.UI.EnrollmentEntryUI.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.UI.MainUI.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.UI.ResultEntryUI.resources
+C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\TrainingCenterApp.UI.ResultSheetUI.resources
 C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.csproj.GenerateResource.Cache
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.exe
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\bin\Debug\StudentCourse.pdb
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.UI.ResultSheetUI.resources
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.UI.CourseEnrollment.resources
-C:\Users\MJS\Desktop\C#\Project\StudentCourse\StudentCourse\obj\Debug\StudentCourse.UI.ResultEntryUI.resources

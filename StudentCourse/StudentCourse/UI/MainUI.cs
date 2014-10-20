@@ -7,9 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using StudentCourse.UI;
 
-namespace StudentCourse
+namespace TrainingCenterApp.UI
 {
     public partial class MainUI : Form
     {
@@ -20,22 +19,20 @@ namespace StudentCourse
 
         private void enrollButton_Click(object sender, EventArgs e)
         {
-            CourseEnrollment aCourseEnrollment=new CourseEnrollment();
-            aCourseEnrollment.ShowDialog();
+            EnrollmentEntryUI anEnrollmentEntryUi = new EnrollmentEntryUI();
+            anEnrollmentEntryUi.ShowDialog();
         }
 
         private void enterResultButton_Click(object sender, EventArgs e)
         {
-            ResultEntryUI aResultEntryUi=new ResultEntryUI();
+            ResultEntryUI aResultEntryUi = new ResultEntryUI();
             aResultEntryUi.ShowDialog();
         }
 
         private void showResultSheetButton_Click(object sender, EventArgs e)
         {
-            ResultSheetUI aResultSheetUi=new ResultSheetUI();
+            ResultSheetUI aResultSheetUi = new ResultSheetUI();
             aResultSheetUi.ShowDialog();
         }
-
-  
     }
 }

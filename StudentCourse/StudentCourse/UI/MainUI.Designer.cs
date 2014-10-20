@@ -1,4 +1,4 @@
-﻿namespace StudentCourse
+﻿namespace TrainingCenterApp.UI
 {
     partial class MainUI
     {
@@ -35,30 +35,30 @@
             // 
             // enrollButton
             // 
-            this.enrollButton.Location = new System.Drawing.Point(51, 30);
+            this.enrollButton.Location = new System.Drawing.Point(28, 12);
             this.enrollButton.Name = "enrollButton";
-            this.enrollButton.Size = new System.Drawing.Size(174, 66);
+            this.enrollButton.Size = new System.Drawing.Size(201, 78);
             this.enrollButton.TabIndex = 0;
-            this.enrollButton.Text = "Enroll";
+            this.enrollButton.Text = "EnrollCourse";
             this.enrollButton.UseVisualStyleBackColor = true;
             this.enrollButton.Click += new System.EventHandler(this.enrollButton_Click);
             // 
             // enterResultButton
             // 
-            this.enterResultButton.Location = new System.Drawing.Point(51, 121);
+            this.enterResultButton.Location = new System.Drawing.Point(28, 113);
             this.enterResultButton.Name = "enterResultButton";
-            this.enterResultButton.Size = new System.Drawing.Size(174, 66);
-            this.enterResultButton.TabIndex = 0;
+            this.enterResultButton.Size = new System.Drawing.Size(201, 87);
+            this.enterResultButton.TabIndex = 1;
             this.enterResultButton.Text = "Enter Result";
             this.enterResultButton.UseVisualStyleBackColor = true;
             this.enterResultButton.Click += new System.EventHandler(this.enterResultButton_Click);
             // 
             // showResultSheetButton
             // 
-            this.showResultSheetButton.Location = new System.Drawing.Point(51, 212);
+            this.showResultSheetButton.Location = new System.Drawing.Point(28, 221);
             this.showResultSheetButton.Name = "showResultSheetButton";
-            this.showResultSheetButton.Size = new System.Drawing.Size(174, 66);
-            this.showResultSheetButton.TabIndex = 0;
+            this.showResultSheetButton.Size = new System.Drawing.Size(201, 93);
+            this.showResultSheetButton.TabIndex = 2;
             this.showResultSheetButton.Text = "Show Result Sheet";
             this.showResultSheetButton.UseVisualStyleBackColor = true;
             this.showResultSheetButton.Click += new System.EventHandler(this.showResultSheetButton_Click);
@@ -67,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 326);
+            this.ClientSize = new System.Drawing.Size(258, 343);
             this.Controls.Add(this.showResultSheetButton);
             this.Controls.Add(this.enterResultButton);
             this.Controls.Add(this.enrollButton);
@@ -82,5 +82,9 @@
         private System.Windows.Forms.Button enrollButton;
         private System.Windows.Forms.Button enterResultButton;
         private System.Windows.Forms.Button showResultSheetButton;
+
+
+
+
     }
 }

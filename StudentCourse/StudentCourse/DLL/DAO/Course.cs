@@ -8,24 +8,16 @@ namespace StudentCourse.DLL.DAO
 {
     class Course
     {
+        public int Id { get; set; }
         public string Title { get; set; }
-        public string Code { get; set; }
-        public string Score { get; set; }
-        public string Grade { get; set; }
+        public string Name { get; set; }
 
-        public Course(string title, string score, string code, string grade):this()
+        public Course(string title, string name)
+            : this()
         {
             Title = title;
-            Score = score;
-            Code = code;
-            Grade = grade;
+            Name = name;
         }
-
-        public Course(string score):this()
-        {
-            Score = score;
-        }
-
         public Course()
         {
         }

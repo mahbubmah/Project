@@ -10,3 +10,6 @@ c:\users\asheeeq\documents\visual studio 2013\Projects\VarsityAdmission\VarsityA
 c:\users\asheeeq\documents\visual studio 2013\Projects\VarsityAdmission\VarsityAdmission\obj\Debug\VarsityAdmission.pdb
 c:\users\asheeeq\documents\visual studio 2013\Projects\VarsityAdmission\VarsityAdmission\obj\Debug\VarsityAdmission.CourseEnrollmentUI.resources
 c:\users\asheeeq\documents\visual studio 2013\Projects\VarsityAdmission\VarsityAdmission\obj\Debug\VarsityAdmission.ResultEntryUI.resources
+C:\Users\MJS\Desktop\QueeManagementApp\Project\VarsityAdmission\VarsityAdmission\bin\Debug\VarsityAdmission.exe.config
+C:\Users\MJS\Desktop\QueeManagementApp\Project\VarsityAdmission\VarsityAdmission\obj\Debug\VarsityAdmission.exe
+C:\Users\MJS\Desktop\QueeManagementApp\Project\VarsityAdmission\VarsityAdmission\obj\Debug\VarsityAdmission.pdb

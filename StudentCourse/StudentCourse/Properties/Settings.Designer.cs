@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ResultEntryUi.UI.UI.UI.Properties
+namespace TrainingCenterApp.Properties
 {
 
 
