@@ -1,0 +1,9 @@
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\bin\Debug\ShopDB.exe.config
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\bin\Debug\ShopDB.exe
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\bin\Debug\ShopDB.pdb
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.csprojResolveAssemblyReference.cache
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.Properties.Resources.resources
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.csproj.GenerateResource.Cache
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.exe
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.pdb
+C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.ShopUI.resources
