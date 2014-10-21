@@ -7,3 +7,11 @@ C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.csproj.GenerateRes
 C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.exe
 C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.pdb
 C:\Users\PC21\Desktop\Practice\ShopDB\ShopDB\obj\Debug\ShopDB.ShopUI.resources
+C:\Users\MJS\Desktop\C@\Project\ShopDB\ShopDB\bin\Debug\ShopDB.exe.config
+C:\Users\MJS\Desktop\C@\Project\ShopDB\ShopDB\obj\Debug\ShopDB.exe
+C:\Users\MJS\Desktop\C@\Project\ShopDB\ShopDB\obj\Debug\ShopDB.pdb
+C:\Users\MJS\Desktop\C@\Project\ShopDB\ShopDB\bin\Debug\ShopDB.exe
+C:\Users\MJS\Desktop\C@\Project\ShopDB\ShopDB\bin\Debug\ShopDB.pdb
+C:\Users\MJS\Desktop\C@\Project\ShopDB\ShopDB\obj\Debug\ShopDB.ShopUI.resources
+C:\Users\MJS\Desktop\C@\Project\ShopDB\ShopDB\obj\Debug\ShopDB.Properties.Resources.resources
+C:\Users\MJS\Desktop\C@\Project\ShopDB\ShopDB\obj\Debug\ShopDB.csproj.GenerateResource.Cache

@@ -11,9 +11,9 @@ namespace ShopDB.BLL
     class ShopBll
     {
         private ShopGateway aShopGateway;
-        private Shop aShop;
         
-        private List<Shop> asShops; 
+        
+        
         
         public string SaveProduct(Shop asShop)
         {
@@ -55,7 +55,21 @@ namespace ShopDB.BLL
             ShopGateway asShopGateway=new ShopGateway();
             return asShopGateway.GetAllProduct();
         }
-        
-         
+
+        public int GetTotalQty()
+        {
+            aShopGateway=new ShopGateway();
+            
+            int totalQty = 0;
+            List<int> aList=new List<int>();
+            aList = aShopGateway.GetTotalQty();
+            foreach (int b in aList)
+            {
+                
+                totalQty=b+totalQty;
+            }
+            return totalQty;
+        }
+
     }
 }

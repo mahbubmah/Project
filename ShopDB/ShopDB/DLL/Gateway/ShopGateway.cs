@@ -60,5 +60,27 @@ namespace ShopDB.DLL.Gateway
              connection.Close();
              return aShops;
          }
+
+        public List<int> GetTotalQty()
+        {
+            connection.Open();
+            string query = string.Format("SELECT Quantity FROM t_Shop ");
+            SqlCommand cmd=new SqlCommand(query,connection);
+            SqlDataReader aReader = cmd.ExecuteReader();
+            List<int> qtyList=new List<int>();
+            if (aReader.HasRows)
+            {
+                while (aReader.Read())
+                {
+                    Shop aShop=new Shop();
+                    aShop.Qty =(int) aReader[0];
+                    qtyList.Add(aShop.Qty);
+                }
+            }
+            connection.Close();
+            return qtyList;
+        }
+
+
     }
 }

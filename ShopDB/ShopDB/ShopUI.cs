@@ -31,13 +31,14 @@ namespace ShopDB
 
         private void viewAllButton_Click(object sender, EventArgs e)
         {
-            
+            totalQtyTextBox.Text = string.Empty;
             asShops=new List<Shop>();
             ShopBll aShopBll=new ShopBll();
             asShops = aShopBll.GetAllProduct();
             dataGridView1.DataSource = asShops;
+            totalQtyTextBox.Text = Convert.ToString(aShopBll.GetTotalQty());
+        }
 
-                }
 
     }
 }
