@@ -12,27 +12,27 @@ namespace ShopDB.BLL
     {
         private ShopGateway aShopGateway;
         
-        
-        
-        
         public string SaveProduct(Shop asShop)
         {
-           
-
-            string msg1 = ProductNameIsValid(asShop);
             
+            if (asShop.Name==string.Empty||asShop.ProductCode==string.Empty)
+            {
+                return "please fill all field";
+            }
+            else
+            {
+                return ProductNameIsValid(asShop);
+            }
             
-            
-            return msg1;
         }
 
         private string ProductNameIsValid(Shop aaShop)
         {
+            string msg10 = "please enter at least three digit for product code and 5-10 charecter for product name";
             aShopGateway = new ShopGateway();
             int length = (aaShop.ProductCode).Length;
             if (length==3)
             {
-
                 if (length >= 5)
                 {
                     if (length >= 10)
@@ -40,15 +40,10 @@ namespace ShopDB.BLL
                         return aShopGateway.SaveProduct(aaShop);
 
                     }
-                    return "Plese input 5-10 charecter for product name";
-
                 }
                 
-                return aShopGateway.SaveProduct(aaShop);
-
-                
             }
-            return "Plese input three charecter for product code. ";
+            return msg10;
         }
         public List<Shop> GetAllProduct()
         {
@@ -65,7 +60,6 @@ namespace ShopDB.BLL
             aList = aShopGateway.GetTotalQty();
             foreach (int b in aList)
             {
-                
                 totalQty=b+totalQty;
             }
             return totalQty;
